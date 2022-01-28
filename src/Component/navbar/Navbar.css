@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav-container{
+height:35px;
+background-color: darkseagreen;
+display:flex;
+padding: 0 10px;
+align-items: center;
+}
+
+.nav-title{
+    width:100%;
+    text-align: center;
+    color:white
+}
+
+.nav-delete{
+    width:25px;
+    height:25px;
+    padding:0;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-delete-icon{
+
+}
