@@ -17,7 +17,7 @@ const [toggle, settoggle] = useState(true);
 
     
   return (<>
-      {toggle?
+      {toggle||!document.cookie?
   <div className='nav-container'>
       <div className="nav-title">오늘 티셔츠 품목 선착순 50% 세일</div>
       <button onClick={()=>deleteForm()} className="nav-delete">

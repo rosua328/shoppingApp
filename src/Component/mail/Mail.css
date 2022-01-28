@@ -1,3 +1,7 @@
+.mail{
+    width:100vw;
+}
+
 .mail-container{
     background-color: rgb(209, 238, 221);
     /* height:55vh; */
@@ -15,7 +19,7 @@
 }
 
 .mail-sub{
-    margin:30px;
+    margin:30px 0;
     font-size: 20px;
     font-weight: bold;
 }
@@ -49,4 +53,27 @@
     justify-content: center;
     padding: 0;
     font-size: 20px;
+}
+
+@media screen and (max-width:412px) {
+    .mail-container{
+padding:20px 0;
+    }
+
+    .mail-title{
+        font-size: 45px;
+    }
+
+    .mail-sub{
+        font-size: 15px;
+    }
+
+    .mail-input{
+        width:250px;
+    }
+
+    .mail-button{
+        height:30px;
+        width:50px;
+    }
 }

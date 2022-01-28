@@ -90,3 +90,26 @@ margin:0;
 .footer-right-sub-real{
     margin-left: 15px;
 }
+
+@media screen and (max-width:412px) {
+.footer-left{
+    display:none;
+}
+
+.footer-center{
+    display: none;
+}
+
+.footer-right{
+    width: 100%;
+}
+
+.footer-right-title{
+    font-size: 24px;
+}
+
+.footer-right-sub{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+}

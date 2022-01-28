@@ -10,6 +10,15 @@
  align-items: center;
 }
 
+@media screen and (max-width:412px) {
+    .products-product{
+        padding:3px;
+        width:48%;
+        margin:0;
+        margin-bottom:10px;
+    }
+}
+
 .products-btn{
     position:absolute;
     top:0;
