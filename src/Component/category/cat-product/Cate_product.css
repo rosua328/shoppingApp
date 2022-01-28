@@ -6,7 +6,7 @@ height:70vh;
     position:relative;
 }
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:415px) {
     .cate-product{
         flex:none;
         height:200px;
