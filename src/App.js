@@ -1,4 +1,5 @@
 import './App.css';
+import Cart from './Page/Cart';
 import Detail from './Page/Detail';
 import Dress from './Page/Dress';
 import Home from './Page/Home';
@@ -6,7 +7,9 @@ import Home from './Page/Home';
 function App() {
   return (
     <div >
-      <Detail/>
+      <Cart/>
+      {/* <Dress/> */}
+      {/* <Detail/> */}
     </div>
   );
 }
