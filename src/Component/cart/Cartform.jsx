@@ -1,6 +1,12 @@
+import { useState } from 'react';
+import { cartcount } from '../../data/respon';
 import './Cartform.css'
+import Cartproduct from './cartProduct/Cartproduct';
 
 const Cartform = () => {
+
+// [scrolling, setscroll] = useState(false);
+
   return( 
   <div className='cart-container'>
 <div className="cart-title">
@@ -17,20 +23,56 @@ const Cartform = () => {
 
 <div className="cart-main">
   <div className="cart-left">
-<div className="cart-product">
-  <div className="cart-product-left">
-<img src="img/cloth1.jpg" alt="img" className="cart-img" />
-  </div>
-  <div className="cart-product-center">
-
-  </div>
-  <div className="cart-product-right">
-
-  </div>
-</div>
+  {cartcount.map((item)=>(
+<Cartproduct key={item.id}/>
+  ))}
   </div>
   <div className="cart-right">
-a
+<div className="cart-check-title">
+  ORDER SUMMARY
+</div>
+
+{/* item */}
+<div className="cart-check-costs">
+  <div className="cart-check-cost">
+<div className="cart-check-cost-title">
+  Subtotal
+</div>
+<div className="cart-check-cost-cost">
+  12,000원
+</div>
+  </div>
+  <div className="cart-check-cost">
+  <div className="cart-check-cost-title">
+  Delivery Fee
+</div>
+<div className="cart-check-cost-cost">
+  5,000원
+</div>
+  </div>
+  <div className="cart-check-cost">
+  <div className="cart-check-cost-title">
+  Shipping Discount
+</div>
+<div className="cart-check-cost-cost">
+  -5,000원
+</div>
+  </div>
+</div>
+
+<div className="cart-check-total">
+  <div className="">
+Total
+  </div>
+  <div className="">
+12,000원
+  </div>
+</div>
+
+<button className="cart-checkout">
+  CHECKOUT NOW
+</button>
+
   </div>
 </div>
 

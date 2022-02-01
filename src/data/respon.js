@@ -1,9 +1,7 @@
-import {css} from "styled-components";
+export const cartcount=[
 
-export const mobile = (pros)=>{
-    return css`
-    @media screen and (max-width:380px){
-        {props}
-    }
-    `;
-};
+    {id:1},
+    {id:2},
+    {id:3},
+
+]
