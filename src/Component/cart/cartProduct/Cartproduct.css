@@ -1,7 +1,19 @@
 .cart-product{
   border-bottom: 2px solid rgb(209, 209, 209);
   display:flex;
+  position:relative;
   padding:10px 0;
+}
+
+.cart-product-delete{
+  position:absolute;
+  right:15px;
+  top:15px;
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .cart-product-left{

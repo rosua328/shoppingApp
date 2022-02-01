@@ -3,6 +3,9 @@ import './Cartproduct.css'
 const Cartproduct = () => {
   return (
   <div className="cart-product">
+    <button className="cart-product-delete">
+      X
+    </button>
   <div className="cart-product-left">
 <img src="img/cloth1.jpg" alt="img" className="cart-img" />
   </div>
