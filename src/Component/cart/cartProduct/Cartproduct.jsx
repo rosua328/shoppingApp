@@ -9,6 +9,7 @@ const Cartproduct = () => {
   <div className="cart-product-left">
 <img src="img/cloth1.jpg" alt="img" className="cart-img" />
   </div>
+  <div className="cart-produc-right">
   <div className="cart-product-center">
 <div className="cart-product-titlespace">
 <div className="cart-product-title-title">
@@ -45,6 +46,8 @@ Product:
   13,000원
 </div>
   </div>
+  </div>
+
 </div>
   )
   
