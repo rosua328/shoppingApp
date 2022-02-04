@@ -7,10 +7,10 @@ import Home from './Page/Home';
 function App() {
   return (
     <div >
-      {/* <Cart/> */}
-      {/* <Dress/> */}
-      {/* <Detail/> */}
       <Home/>
+      <Dress/>
+      <Detail/>
+      <Cart/>
     </div>
   );
 }

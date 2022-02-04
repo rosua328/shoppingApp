@@ -2,7 +2,7 @@ export const scrollList = [
 {
     id:1,
     title:"여름, 빨강, 정열",
-    sub:"여름에는 역시 정열의 빨강이죠 멋지죠? 케케케켘ㅋㅋㅋ",
+    sub:"여름에는 역시 정열의 빨강이죠 멋지죠?",
     img:"main1.png",
     color:"rgb(200, 212, 212)"
 },
@@ -16,7 +16,7 @@ export const scrollList = [
 {
     id:3,
     title:"향기로운 초록 빛",
-    sub:"여름에는 역시 정열의 빨강이죠 멋지죠? 케케케켘ㅋㅋㅋ",
+    sub:"여름에는 역시 정열의 빨강이죠 멋지죠.",
     img:"main3.png",
     color:"rgb(196, 223, 199)"
 }
